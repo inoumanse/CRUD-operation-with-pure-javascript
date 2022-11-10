@@ -27,9 +27,9 @@ body{
 
     color: #fff;
     text-shadow:
-        0 0 7px #fff,
-        0 0 10px #fff,
-        0 0 21px #fff,
+        0 0 1px #fff,
+        0 0 2px #fff,
+        0 0 3px #fff,
         0 0 42px #bc13fe,
         0 0 82px #bc13fe,
         0 0 92px #bc13fe,
@@ -40,15 +40,15 @@ body{
 
 h1{
     font-size: 60px;
-    animation: pulsate 1s infinite alternate;
+    /*animation: pulsate 1s infinite alternate;*/
 }
 @keyframes pulsate {
     
     100% {
         text-shadow:
-        0 0 4px #fff,
-        0 0 11px #fff,
-        0 0 19px #fff,
+        0 0 2px #fff,
+        0 0 5px #fff,
+        0 0 8px #fff,
         0 0 40px #bc13fe,
         0 0 80px #bc13fe,
         0 0 90px #bc13fe,
@@ -57,9 +57,9 @@ h1{
     }
     0% {
       text-shadow:
+      0 0 0px #fff,
+      0 0 1px #fff,
       0 0 2px #fff,
-      0 0 4px #fff,
-      0 0 6px #fff,
       0 0 10px #bc13fe,
       0 0 45px #bc13fe,
       0 0 55px #bc13fe,
