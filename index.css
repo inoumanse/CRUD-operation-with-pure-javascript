@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Warnes&display=swap');
+
 :root {
     --color-white: #f3f3f3;
     --color-darkblue: #1b1b32;
@@ -5,29 +7,72 @@
     --color-green: #37af65;
 }
 body{
-    background-color: aquamarine;
+    background-image: url('wall2.jpg');
 }
 .heading{
     text-align: center;
 }
 .test{
-    font-family: 'Fredoka One', cursive;
+    /*font-family: 'Fredoka One', cursive;
     font-size: 3em;
     font-weight: normal;
     color: #fff;
- /* text-decoration: underline;
+    text-decoration: underline;
     text-decoration-color: royalblue;
     text-decoration-thickness: 15px;
     text-decoration-skip-ink: none;
-    text-underline-offset: -10px;*/
+    text-underline-offset: -10px;
     text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px royalblue, 0 0 20px royalblue, 0 0 25px royalblue, 0 0 30px royalblue, 0 0 35px royalblue;
-    animation: blinker 5s linear infinite;
+    animation: blinker 5s linear infinite;*/
+
+    color: #fff;
+    text-shadow:
+        0 0 7px #fff,
+        0 0 10px #fff,
+        0 0 21px #fff,
+        0 0 42px #bc13fe,
+        0 0 82px #bc13fe,
+        0 0 92px #bc13fe,
+        0 0 102px #bc13fe,
+        0 0 151px #bc13fe;
+    font-family: "Sacramento", sans-serif;
 }
-@keyframes blinker {
+
+h1{
+    font-size: 50px;
+    animation: pulsate 1s infinite alternate;
+}
+@keyframes pulsate {
+    
+    100% {
+        text-shadow:
+        0 0 4px #fff,
+        0 0 11px #fff,
+        0 0 19px #fff,
+        0 0 40px #bc13fe,
+        0 0 80px #bc13fe,
+        0 0 90px #bc13fe,
+        0 0 100px #bc13fe,
+        0 0 150px #bc13fe;
+    }
+    0% {
+      text-shadow:
+      0 0 2px #fff,
+      0 0 4px #fff,
+      0 0 6px #fff,
+      0 0 10px #bc13fe,
+      0 0 45px #bc13fe,
+      0 0 55px #bc13fe,
+      0 0 70px #bc13fe,
+      0 0 80px #bc13fe;
+  }
+}
+
+/*@keyframes blinker {
     50% {
       opacity: 0;
     }
-}
+}*/
 
 .mainDivForm{
     display: flex;
@@ -36,14 +81,21 @@ body{
     margin-right: 500px;
     margin-bottom: 20px;
     padding-top: 20px;
-    background-color:#72c692;
-    border: 0.5px solid royalblue;
-    box-shadow:  0 0 20px 1px royalblue;
+    background-color:#cb6bf1;
+    border: 0.5px solid #bc13fe;
+    border-radius: 10px;
+    box-shadow:  0 0 20px 1px #bc13fe;
+}
+
+input{
+    border: 0.5px solid #bc13fe;
+    border-radius: 10px;
 }
 .list{
     color: #1b1b32;
-    background-color:#72c692;
-    border: 0.5px solid #1b1b32;
+    background-color:#cb6bf1;
+    border: 0.5px solid #bc13fe;
+    border-radius: 10px;
 }
 
 
@@ -58,10 +110,11 @@ body{
 
     background-color: white;
     color: black;
-    border: 0.5px solid royalblue;
+    border: 0.5px solid #bc13fe;
+    border-radius: 10px;
 }
 .submit-button:hover{
-    background-color: royalblue;
+    background-color: #bc13fe;
     color: white;
-    box-shadow: 0 0 20px 1px royalblue;
+    box-shadow: 0 0 20px 5px #bc13fe;
 }
